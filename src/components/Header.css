@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@400;500&display=swap');
+
+.logo {
+  height: 42px;
+}
+
+.header-title {
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content {
+  height: 86px;
+}
+
+.list {
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  letter-spacing: 1px;
+  border-radius: 7px;
+}
+
+li.list:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.always-active {
+  background-color: rgba(255, 255, 255);
+  color: blue;
+  font-weight: 400;
+  margin-left: 30px;
+  cursor: pointer;
+}
